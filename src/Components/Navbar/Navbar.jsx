@@ -17,11 +17,13 @@ const Navbar = () => {
                 <a href="">
                     <FaMoon className='moon' />
                 </a>
+                {/* <a href="">
+
+                     <FaSun /> 
+                </a> */}
                 <a href="">
-                    <FaSun />
+                    <h3>CV</h3><FaIdCard />
                 </a>
-                <a href="">
-                    <FaIdCard /></a>
             </li>
         </div>
     )

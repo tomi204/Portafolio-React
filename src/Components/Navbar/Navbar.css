@@ -1,17 +1,16 @@
 .navbar {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(58, 57, 57);
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: fixed;
   height: 100px;
   width: 100%;
   z-index: 1;
 }
 .navbar-list {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(58, 57, 57);
   list-style: none;
   display: inline-flex;
   align-items: center;
