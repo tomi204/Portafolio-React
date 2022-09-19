@@ -1,11 +1,16 @@
 .navbar {
-  background-color: #000;
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 0.5rem 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
   width: 100%;
   z-index: 1;
+}
+.moon {
+  display: flex;
+  font-size: 1.5rem;
+  cursor: pointer;
 }

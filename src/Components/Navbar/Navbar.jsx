@@ -1,10 +1,13 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaMoon } from "react-icons/fa";
+
 import "./Navbar.css"
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <FontAwesomeIcon icon="fa-sharp fa-solid fa-moon-stars" />
+
+            <FaMoon className='moon' />
+
         </div>
     )
 }
