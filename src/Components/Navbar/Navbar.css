@@ -1,16 +1,28 @@
 .navbar {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  padding: 0.5rem 1rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
+
   position: fixed;
+  height: 100px;
   width: 100%;
   z-index: 1;
 }
+.navbar-list {
+  background-color: rgb(0, 0, 0);
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 90px;
+}
+.navbar-list a {
+  color: white;
+  margin-left: 150px;
+}
 .moon {
-  display: flex;
   font-size: 1.5rem;
   cursor: pointer;
 }
