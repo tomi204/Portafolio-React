@@ -5,20 +5,20 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='derechos'>
-                <h3>All rights reserved©</h3>
+                <h4>All rights reserved©</h4>
             </div>
-            <h3>Created with love by Tomas Oliver ♡</h3>
+            <h3>Created with love by Tomás Oliver ♡</h3>
             <div className='redes-footer'>
-                <a href="">
+                <a href="https://github.com/tomi204">
                     <FaGithub />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/tomi204/">
                     <FaLinkedin />
                 </a>
-                <a href="">
+                <a href="https://twitter.com/tomiioliver">
                     <FaTwitter />
                 </a>
-                <a href="">
+                <a href="https://www.instagram.com/tomi204_/">
                     <FaInstagram />
                 </a>
 
