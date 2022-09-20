@@ -21,7 +21,7 @@ const Intro = () => {
                 </a>
             </div>
             <div className='d3' >
-                <Canvas  camera={{zoom: 0.3, position: [20, 0, 420]}} >
+                <Canvas  camera={{zoom: 0.3, position: [20, 20, 420]}} >
                 
 
                 <ambientLight intensity={0.5} />

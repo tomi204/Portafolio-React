@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='derechos'>
                 <h4>All rights reserved©</h4>
             </div>
-            <h3>Created with love by Tomás Oliver ♡</h3>
+            <h3 className='creado'>Created with love by Tomás Oliver ♡</h3>
             <div className='redes-footer'>
                 <a href="https://github.com/tomi204" target={'_blank'}>
                     <FaGithub />

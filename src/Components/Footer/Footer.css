@@ -3,18 +3,22 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 56px;
+  height: 43px;
   background-color: rgb(22, 22, 22);
   z-index: 1;
   justify-content: center;
   align-items: center;
   color: white;
+  border-top: 1px solid  #896eb1;
+  border-top-width: 2px;
 }
 .redes-footer {
   display: flex;
   position: fixed;
   right: 0;
   margin-right: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .redes-footer a {
   font-size: 1.2rem;
@@ -27,3 +31,40 @@
   left: 0;
   margin-left: 20px;
 }
+@media screen and (max-width: 920px) {
+  .creado{
+    display: none;
+  }
+  .derechos {
+    display: none;
+  }
+  .redes-footer a {
+    font-size: 1.2rem;
+    margin: 40px;
+    
+  }
+  .redes-footer {
+  
+    right: initial;
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 418px) {
+  .creado {
+    font-size: smaller;
+  }
+  .derechos {
+    display: none;
+  }
+  .redes-footer a {
+    font-size: 1rem;
+  
+    margin: 35px;
+  }
+  .creado{
+    display: none;
+  }
+}
+  

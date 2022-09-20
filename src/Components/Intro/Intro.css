@@ -14,14 +14,14 @@
   display: list-item;
 }
 .d3 {
-  width: 44%;
-  height: 85%;
+  width: 45%;
+  height: 73%;
   z-index: 1;
   
 }
 .boton-d{
   border-radius: 5px;
-  background-color: blueviolet;
+  background-color: rgb(99, 35, 194);
   color: white;
   width: 70px;
   height: 30px;
@@ -31,5 +31,5 @@
 }
 .nombre{
   border-radius: 15px;
-  background-color: rgb(93, 8, 173);
+  background-color: #5d26b1;
 }
