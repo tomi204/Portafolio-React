@@ -1,0 +1,224 @@
+{
+  "accessors": [
+    {
+      "componentType": 5125,
+      "count": 696,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 474,
+      "max": [
+        0.8253245493944952,
+        0.8561282894190618,
+        1.0067907595166972
+      ],
+      "min": [
+        -0.8287100219259075,
+        -0.7979062819013408,
+        -1.0078390264043622
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 474,
+      "max": [
+        1.5288369955525027,
+        3.627971729128082,
+        0.4587534129998132
+      ],
+      "min": [
+        -1.5295509899541933,
+        -1.226123532144745,
+        -0.1548193896696168
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 474,
+      "max": [
+        1.0060383950743392,
+        1.0014035102792034
+      ],
+      "min": [
+        0.4965352418951741,
+        -0.0009779331155070346
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Nofil.Khan (https://sketchfab.com/Nofil.Khan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/ethereum-logo-free-3d-model-77eaebe1ae96474eb87482a9970899a9",
+      "title": "Ethereum Logo | Free 3D Model"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1674
+    }
+  ],
+  "buffers": [
+    {
+      "name": "disco",
+      "byteLength": 1680,
+      "uri": "data:application/octet-stream;base64,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"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0.3361195726854301,
+        "roughnessFactor": 0.21451610941879626
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "EhiriumLogo__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "NORMAL": 0,
+                "POSITION": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0,
+        0,
+        -0.009999999776482582,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "c330d45a0d63496daaf33d7593b97de6.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        99.9999999999999,
+        0.000004371138828673792,
+        0,
+        0,
+        -0.000004371138828673792,
+        99.9999999999999,
+        0,
+        0,
+        -125.47551727294922,
+        13.727116584777832,
+        1
+      ],
+      "name": "EhiriumLogo"
+    },
+    {
+      "mesh": 0,
+      "name": "EhiriumLogo__0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}
