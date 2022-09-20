@@ -1,9 +1,16 @@
-.titulo {
-  display: flex;
+.intro-main {
   width: 100%;
-  height: 20%;
-  left: 0;
-  top: 0;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  position: absolute;
+  color: white;
   justify-content: center;
   align-items: center;
+}
+.titulo {
+  width: 50%;
+}
+.d3 {
+  width: 50%;
 }

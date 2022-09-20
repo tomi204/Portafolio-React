@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaIdCard, FaMoon, FaSun } from "react-icons/fa";
+import { FaIdCard, FaMoon, } from "react-icons/fa";
 import "./Navbar.css"
 const Navbar = () => {
     return (
@@ -14,16 +14,16 @@ const Navbar = () => {
                 <a href="">
                     <h3>Skills</h3>
                 </a>
+
                 <a href="">
                     <FaMoon className='moon' />
                 </a>
+
                 {/* <a href="">
 
                      <FaSun /> 
                 </a> */}
-                <a href="">
-                    <h3>CV</h3><FaIdCard />
-                </a>
+
             </li>
         </div>
     )
