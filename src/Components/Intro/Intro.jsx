@@ -11,17 +11,17 @@ const Intro = () => {
             <div className='titulo'>
                 <h1> Tomás Oliver</h1>
                 <h3>I am a very proactive, focused and dedicated person.
-                    dedicated.
+                  
                     I am passionate about technology, Blockchain
                     and all it has to offer.</h3>
-                <a href="">
-                    <button>
-                        Download CV <FaIdCard />
+                <a href="https://drive.google.com/file/d/1Aeusjbh75eXEPl4yp27JYi-6t_0vjprk/view?usp=sharing" target={'_blank'} >
+                    <button className='boton-d'>
+                         CV <FaIdCard />
                     </button>
                 </a>
             </div>
             <div className='d3' >
-                <Canvas  camera={{zoom: 0.4, position: [20, 0, 420]}} >
+                <Canvas  camera={{zoom: 0.3, position: [20, 0, 420]}} >
                 
 
                 <ambientLight intensity={0.5} />
@@ -33,7 +33,7 @@ const Intro = () => {
                 
                 </Suspense>
                 
-                <OrbitControls autoRotate={true} autoRotateSpeed={5} />
+                <OrbitControls autoRotate={true} autoRotateSpeed={10} />
                 
                 </Canvas>
                 </div>
