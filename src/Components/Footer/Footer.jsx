@@ -9,16 +9,16 @@ const Footer = () => {
             </div>
             <h3>Created with love by Tomás Oliver ♡</h3>
             <div className='redes-footer'>
-                <a href="https://github.com/tomi204">
+                <a href="https://github.com/tomi204" target={'_blank'}>
                     <FaGithub />
                 </a>
-                <a href="https://www.linkedin.com/in/tomi204/">
+                <a href="https://www.linkedin.com/in/tomi204/" target={'_blank'}>
                     <FaLinkedin />
                 </a>
                 <a href="https://twitter.com/tomiioliver">
                     <FaTwitter />
                 </a>
-                <a href="https://www.instagram.com/tomi204_/">
+                <a href="https://www.instagram.com/tomi204_/" target={'_blank'}>
                     <FaInstagram />
                 </a>
 

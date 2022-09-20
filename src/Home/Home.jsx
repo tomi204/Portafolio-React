@@ -6,9 +6,9 @@ import Intro from '../Components/Intro/Intro'
 export const Home = () => {
     return (
         <section className='home'>
-            <Navbar />
+            
             <Intro />
-            <Footer />
+            
         </section>
     )
 }

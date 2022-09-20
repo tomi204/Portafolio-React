@@ -9,7 +9,7 @@ const Intro = () => {
     return (
         <div className='intro-main'>
             <div className='titulo'>
-                <h1> Tomás Oliver</h1>
+                <h1 className='nombre'> Tomás Oliver</h1>
                 <h3>I am a very proactive, focused and dedicated person.
                   
                     I am passionate about technology, Blockchain
