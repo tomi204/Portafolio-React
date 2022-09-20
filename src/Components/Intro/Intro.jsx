@@ -2,7 +2,7 @@ import React, { Suspense} from 'react'
 import { FaIdCard } from 'react-icons/fa'
 import { Model } from '../3d/Disco'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls } from '@react-three/drei'
+import { OrbitControls, PresentationControls } from '@react-three/drei'
 import "./Intro.css"
 
 const Intro = () => {
@@ -20,14 +20,21 @@ const Intro = () => {
                     </button>
                 </a>
             </div>
-            <div className='d3'>
-                <Canvas camera={{zoom: 5, position: [5, 15, 20]}} >
-                <ambientLight intensity={0.5} />
-                <Suspense fallback={null}>
+            <div className='d3' >
+                <Canvas  camera={{zoom: 0.4, position: [20, 0, 420]}} >
                 
+
+                <ambientLight intensity={0.5} />
+                <pointLight position={[10, 15, 10]} />
+                <pointLight position={[-10, -15, -10]} />
+
+                <Suspense fallback={null}>
                 <Model />
+                
                 </Suspense>
-                <OrbitControls />
+                
+                <OrbitControls autoRotate={true} autoRotateSpeed={5} />
+                
                 </Canvas>
                 </div>
         </div>
