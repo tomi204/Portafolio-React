@@ -1,0 +1,36 @@
+.skills{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.skills__container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    
+}
+.container-skills{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-skills{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    
+    border-width: 1px;
+    border-color: #896eb1;
+    border-bottom-style: solid;
+}

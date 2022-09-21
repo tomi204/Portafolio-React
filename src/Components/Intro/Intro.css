@@ -33,3 +33,8 @@
   border-radius: 15px;
   background-color: #5d26b1;
 }
+@media screen and (max-width: 518px) {
+  .intro-main {
+   font-size: smaller;
+  }
+}

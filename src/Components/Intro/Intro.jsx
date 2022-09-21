@@ -24,9 +24,10 @@ const Intro = () => {
                 <Canvas  camera={{zoom: 0.3, position: [20, 20, 420]}} >
                 
 
-                <ambientLight intensity={0.5} />
-                <pointLight position={[10, 15, 10]} />
-                <pointLight position={[-10, -15, -10]} />
+                <ambientLight intensity={10} />
+            
+              
+
 
                 <Suspense fallback={null}>
                 <Model />
