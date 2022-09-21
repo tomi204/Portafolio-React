@@ -21,20 +21,14 @@ const Intro = () => {
                 </a>
             </div>
             <div className='d3' >
-                <Canvas  camera={{zoom: 0.3, position: [20, 20, 420]}} >
-                
-
-                <ambientLight intensity={10} />
+                <Canvas  camera={{zoom: 105, position: [20, 20, 420]}} >
             
-              
-
-
                 <Suspense fallback={null}>
                 <Model />
                 
                 </Suspense>
                 
-                <OrbitControls autoRotate={true} autoRotateSpeed={10} />
+                <OrbitControls autoRotate={true} autoRotateSpeed={6} />
                 
                 </Canvas>
                 </div>
