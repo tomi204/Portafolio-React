@@ -2,7 +2,7 @@ import React, { Suspense} from 'react'
 import { FaIdCard } from 'react-icons/fa'
 import { Model } from '../3d/Disco'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, PresentationControls } from '@react-three/drei'
+import { OrbitControls } from '@react-three/drei'
 import "./Intro.css"
 
 const Intro = () => {
@@ -10,10 +10,7 @@ const Intro = () => {
         <div className='intro-main'>
             <div className='titulo'>
                 <h1 className='nombre'> Tomás Oliver</h1>
-                <h3>I am a very proactive, focused and dedicated person.
-                  
-                    I am passionate about technology, Blockchain
-                    and all it has to offer.</h3>
+                <h3> I am 20 years old and live in Argentina, Buenos Aires. I am a very proactive, problem solver and dedicated person. Passionate about technology, Blockchain and everything it has to offer.</h3>
                 <a href="https://drive.google.com/file/d/1Aeusjbh75eXEPl4yp27JYi-6t_0vjprk/view?usp=sharing" target={'_blank'} >
                     <button className='boton-d'>
                          CV <FaIdCard />

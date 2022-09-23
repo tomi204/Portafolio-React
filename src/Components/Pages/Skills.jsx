@@ -8,7 +8,7 @@ const Skills = () => {
         
         <div className='skills__container'>
                
-                <ul> 
+        <ul className='tech'>
                     <h2>FRONTEND</h2>
                     <li>HTML</li>
                    
@@ -25,8 +25,8 @@ const Skills = () => {
                     <li>Sass</li>
                    
                 </ul>
-             <br />
-                <ul>
+             
+             <ul className='tech'>
                     <h2>BLOCKCHAIN</h2>
                     <li>Solidity</li>
                     
@@ -43,8 +43,8 @@ const Skills = () => {
                     <li>IPFS</li>
                     
                   </ul>
-         <br />
-                <ul>
+         
+         <ul className='tech'>
                     <h2>OTHERS</h2>
                  
                     <li>Scrum</li>
@@ -58,8 +58,9 @@ const Skills = () => {
                     <li>Firebase</li>
                   </ul>
                   
-                <ul>
+                <ul className='tech'>
                     <h2>LANGUAGES</h2>
+                    
                    
                     <li>Spanish: Native language</li>
                     <br />
